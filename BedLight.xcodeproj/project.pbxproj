@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351D54F41E8ACB03003A9809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D54F31E8ACB03003A9809 /* AppDelegate.swift */; };
+		351D54F61E8ACB03003A9809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D54F51E8ACB03003A9809 /* ViewController.swift */; };
+		351D54F91E8ACB03003A9809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351D54F71E8ACB03003A9809 /* Main.storyboard */; };
+		351D54FB1E8ACB03003A9809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351D54FA1E8ACB03003A9809 /* Assets.xcassets */; };
+		351D54FE1E8ACB03003A9809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351D54FC1E8ACB03003A9809 /* LaunchScreen.storyboard */; };
+		351D55091E8ACB04003A9809 /* BedLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D55081E8ACB04003A9809 /* BedLightTests.swift */; };
+		351D55141E8ACB04003A9809 /* BedLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D55131E8ACB04003A9809 /* BedLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351D55051E8ACB04003A9809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351D54E81E8ACB03003A9809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351D54EF1E8ACB03003A9809;
+			remoteInfo = BedLight;
+		};
+		351D55101E8ACB04003A9809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351D54E81E8ACB03003A9809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351D54EF1E8ACB03003A9809;
+			remoteInfo = BedLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351D54F01E8ACB03003A9809 /* BedLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BedLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351D54F31E8ACB03003A9809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351D54F51E8ACB03003A9809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351D54F81E8ACB03003A9809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351D54FA1E8ACB03003A9809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351D54FD1E8ACB03003A9809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351D54FF1E8ACB04003A9809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351D55041E8ACB04003A9809 /* BedLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BedLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351D55081E8ACB04003A9809 /* BedLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedLightTests.swift; sourceTree = "<group>"; };
+		351D550A1E8ACB04003A9809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351D550F1E8ACB04003A9809 /* BedLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BedLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		351D55131E8ACB04003A9809 /* BedLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedLightUITests.swift; sourceTree = "<group>"; };
+		351D55151E8ACB04003A9809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351D54ED1E8ACB03003A9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D55011E8ACB04003A9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D550C1E8ACB04003A9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351D54E71E8ACB03003A9809 = {
+			isa = PBXGroup;
+			children = (
+				351D54F21E8ACB03003A9809 /* BedLight */,
+				351D55071E8ACB04003A9809 /* BedLightTests */,
+				351D55121E8ACB04003A9809 /* BedLightUITests */,
+				351D54F11E8ACB03003A9809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351D54F11E8ACB03003A9809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351D54F01E8ACB03003A9809 /* BedLight.app */,
+				351D55041E8ACB04003A9809 /* BedLightTests.xctest */,
+				351D550F1E8ACB04003A9809 /* BedLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351D54F21E8ACB03003A9809 /* BedLight */ = {
+			isa = PBXGroup;
+			children = (
+				351D54F31E8ACB03003A9809 /* AppDelegate.swift */,
+				351D54F51E8ACB03003A9809 /* ViewController.swift */,
+				351D54F71E8ACB03003A9809 /* Main.storyboard */,
+				351D54FA1E8ACB03003A9809 /* Assets.xcassets */,
+				351D54FC1E8ACB03003A9809 /* LaunchScreen.storyboard */,
+				351D54FF1E8ACB04003A9809 /* Info.plist */,
+			);
+			path = BedLight;
+			sourceTree = "<group>";
+		};
+		351D55071E8ACB04003A9809 /* BedLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				351D55081E8ACB04003A9809 /* BedLightTests.swift */,
+				351D550A1E8ACB04003A9809 /* Info.plist */,
+			);
+			path = BedLightTests;
+			sourceTree = "<group>";
+		};
+		351D55121E8ACB04003A9809 /* BedLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				351D55131E8ACB04003A9809 /* BedLightUITests.swift */,
+				351D55151E8ACB04003A9809 /* Info.plist */,
+			);
+			path = BedLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351D54EF1E8ACB03003A9809 /* BedLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351D55181E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLight" */;
+			buildPhases = (
+				351D54EC1E8ACB03003A9809 /* Sources */,
+				351D54ED1E8ACB03003A9809 /* Frameworks */,
+				351D54EE1E8ACB03003A9809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BedLight;
+			productName = BedLight;
+			productReference = 351D54F01E8ACB03003A9809 /* BedLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		351D55031E8ACB04003A9809 /* BedLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351D551B1E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLightTests" */;
+			buildPhases = (
+				351D55001E8ACB04003A9809 /* Sources */,
+				351D55011E8ACB04003A9809 /* Frameworks */,
+				351D55021E8ACB04003A9809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351D55061E8ACB04003A9809 /* PBXTargetDependency */,
+			);
+			name = BedLightTests;
+			productName = BedLightTests;
+			productReference = 351D55041E8ACB04003A9809 /* BedLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		351D550E1E8ACB04003A9809 /* BedLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351D551E1E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLightUITests" */;
+			buildPhases = (
+				351D550B1E8ACB04003A9809 /* Sources */,
+				351D550C1E8ACB04003A9809 /* Frameworks */,
+				351D550D1E8ACB04003A9809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351D55111E8ACB04003A9809 /* PBXTargetDependency */,
+			);
+			name = BedLightUITests;
+			productName = BedLightUITests;
+			productReference = 351D550F1E8ACB04003A9809 /* BedLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351D54E81E8ACB03003A9809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Raja;
+				TargetAttributes = {
+					351D54EF1E8ACB03003A9809 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VARACGPJ6G;
+						ProvisioningStyle = Automatic;
+					};
+					351D55031E8ACB04003A9809 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VARACGPJ6G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351D54EF1E8ACB03003A9809;
+					};
+					351D550E1E8ACB04003A9809 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VARACGPJ6G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351D54EF1E8ACB03003A9809;
+					};
+				};
+			};
+			buildConfigurationList = 351D54EB1E8ACB03003A9809 /* Build configuration list for PBXProject "BedLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351D54E71E8ACB03003A9809;
+			productRefGroup = 351D54F11E8ACB03003A9809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351D54EF1E8ACB03003A9809 /* BedLight */,
+				351D55031E8ACB04003A9809 /* BedLightTests */,
+				351D550E1E8ACB04003A9809 /* BedLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351D54EE1E8ACB03003A9809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351D54FE1E8ACB03003A9809 /* LaunchScreen.storyboard in Resources */,
+				351D54FB1E8ACB03003A9809 /* Assets.xcassets in Resources */,
+				351D54F91E8ACB03003A9809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D55021E8ACB04003A9809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D550D1E8ACB04003A9809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351D54EC1E8ACB03003A9809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351D54F61E8ACB03003A9809 /* ViewController.swift in Sources */,
+				351D54F41E8ACB03003A9809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D55001E8ACB04003A9809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351D55091E8ACB04003A9809 /* BedLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351D550B1E8ACB04003A9809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351D55141E8ACB04003A9809 /* BedLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351D55061E8ACB04003A9809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351D54EF1E8ACB03003A9809 /* BedLight */;
+			targetProxy = 351D55051E8ACB04003A9809 /* PBXContainerItemProxy */;
+		};
+		351D55111E8ACB04003A9809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351D54EF1E8ACB03003A9809 /* BedLight */;
+			targetProxy = 351D55101E8ACB04003A9809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		351D54F71E8ACB03003A9809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351D54F81E8ACB03003A9809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351D54FC1E8ACB03003A9809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351D54FD1E8ACB03003A9809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351D55161E8ACB04003A9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351D55171E8ACB04003A9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351D55191E8ACB04003A9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		351D551A1E8ACB04003A9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		351D551C1E8ACB04003A9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BedLight.app/BedLight";
+			};
+			name = Debug;
+		};
+		351D551D1E8ACB04003A9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BedLight.app/BedLight";
+			};
+			name = Release;
+		};
+		351D551F1E8ACB04003A9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BedLight;
+			};
+			name = Debug;
+		};
+		351D55201E8ACB04003A9809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VARACGPJ6G;
+				INFOPLIST_FILE = BedLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pr.BedLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BedLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351D54EB1E8ACB03003A9809 /* Build configuration list for PBXProject "BedLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351D55161E8ACB04003A9809 /* Debug */,
+				351D55171E8ACB04003A9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351D55181E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351D55191E8ACB04003A9809 /* Debug */,
+				351D551A1E8ACB04003A9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		351D551B1E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351D551C1E8ACB04003A9809 /* Debug */,
+				351D551D1E8ACB04003A9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		351D551E1E8ACB04003A9809 /* Build configuration list for PBXNativeTarget "BedLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351D551F1E8ACB04003A9809 /* Debug */,
+				351D55201E8ACB04003A9809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351D54E81E8ACB03003A9809 /* Project object */;
+}
